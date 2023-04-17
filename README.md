@@ -21,4 +21,5 @@
 7. As we are seeding one user in API, so one user will be created by default. For that user below are credentials
 
    `Username: Test@gmail.com
+   
    Password: Admin@123`
