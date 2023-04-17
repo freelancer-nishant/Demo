@@ -15,8 +15,10 @@
 3. Change database connectionstring in `appsettings.json` of WebAPI project
 4. Run solution using F5. Please make ensure API project as startup project.
 5. From UI project, run below command in console
-   npm run start.
+   
+   `npm run start`
 6. In Browser, Go to http://localhost:4200
 7. As we are seeding one user in API, so one user will be created by default. For that user below are credentials
-   Username: Test@gmail.com
-   Password: Admin@123
+
+   `Username: Test@gmail.com
+   Password: Admin@123`
