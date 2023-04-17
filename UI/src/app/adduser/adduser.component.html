@@ -33,7 +33,7 @@
       <p>
         <mat-form-field appearance="outline">
           <mat-label>Mobile No</mat-label>
-          <input matInput maxlength="10" type="number" inputmode="tel" [(ngModel)]="user.phoneNumber" placeholder="Enter mobile" formControlName="mobile">
+          <input matInput type="number" inputmode="tel" [(ngModel)]="user.phoneNumber" placeholder="Enter mobile" formControlName="mobile" onKeyPress="if(this.value.length==10) return false;" >
           <mat-icon matSuffix>phone</mat-icon>
           <mat-error *ngIf="!form.controls['mobile'].errors?.['pattern']">Mobile is required</mat-error>
           <mat-error *ngIf="form.controls['mobile'].errors?.['pattern']">

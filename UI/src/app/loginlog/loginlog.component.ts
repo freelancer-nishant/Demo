@@ -70,7 +70,6 @@ export class LoginlogComponent implements OnInit {
     this.getuserLog(id);
   }  
   getuserLog(userid: any): void {
-    debugger
     this.pagination.id = userid;
     this.pagination.PageNumber = this.currentPage;
     this.pagination.PageSize = this.pageSize;

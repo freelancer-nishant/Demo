@@ -71,7 +71,6 @@ export class UserComponent implements OnInit {
   }
 
   applyFilter() {   
-    debugger;
     this.sortDirection = this.sortDirection;
     this.sortColumnName = this.sortColumnName;
     this.pagination.Search = this.pagination.Search;
@@ -79,7 +78,6 @@ export class UserComponent implements OnInit {
   }
 
   onPageChange(event: any) {
-    debugger
     console.log(event)
     this.length = this.length;
 
@@ -93,7 +91,6 @@ export class UserComponent implements OnInit {
   }
 
   sortData(sort: Sort) {
-    debugger
     this.sortDirection = sort.direction;
     this.sortColumnName = sort.active;
     this.getuserlist()
